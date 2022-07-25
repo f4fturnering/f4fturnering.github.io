@@ -35,7 +35,7 @@
             <input type="text" name="Lagkapten" id="Lagkapten" placeholder="Lagkapten" required>
 
             
-            <input type="email" placeholder="Email" required>
+            <input type="email" name="Email" placeholder="Email" required>
 
 
             <input type="tel" name="Telefonnummer" placeholder="Telefonnummer" required>
@@ -45,12 +45,17 @@
 
             <button class="butt" type="submit">Skicka</button>
 
-          
+            <ul class="button">
+                <button type="button"><a href="https://www.instagram.com/f4f_turneringar/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                </button>
+            </ul>
 
         </form>
+
+
     </div>
     
-    
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 
 </body>
 </html>
