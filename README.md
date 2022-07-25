@@ -17,7 +17,7 @@
 
         <form action="https://formspree.io/f/xoqrgpqw" method="POST">
 
-            <h2>F4F</h2>
+            <h1>F4F</h1>
 
             
             <input type="text" name="Namn" placeholder="Namn" required>
@@ -43,15 +43,19 @@
            
             <textarea name="Frågor?" id="Frågor?" cols="30" rows="10" placeholder="Frågor?"></textarea>
 
-            <button type="submit">Skicka</button>
+            <button class="butt" type="submit">Skicka</button>
 
-
-
+            <ul class="button">
+                <button type="button"><a href="https://www.instagram.com/f4f_turneringar/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                </button>
+            </ul>
 
         </form>
 
 
     </div>
     
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
 </body>
 </html>
